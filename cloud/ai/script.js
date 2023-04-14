@@ -7,7 +7,7 @@ if (rdd === null) {
 const key = "sn978y695g78y5o9my59p7b5986gv958yp8954vy9s8mbhyv945hy8pbh549yh54s9mh9584mhnm958y7hgytso93xm48g38x94n7ht597nt5v8t";
 
 // url var
-let currentURL = "http://" + (new URL(window.location.href).hostname).toString().replace("ai", "server");
+let currentURL = "http://server." + (new URL(window.location.href).hostname).toString().replace("ai", "server");
 currentURL = currentURL.replace(/\/$/, "");
 
 // body var
