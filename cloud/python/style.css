@@ -1,0 +1,72 @@
+.editor-container {
+  position: relative;
+}
+
+#editor {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#output,
+#error {
+  margin-top: 0px;
+}
+
+#logout {
+  font-size: 85%;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+}
+
+#run-btn {
+  font-size: 110%;
+  background-color: #35c509;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+}
+
+#dow-btn {
+  font-size: 110%;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+}
+
+#upl-btn {
+  font-size: 110%;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+}
+
+
+
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+#input-field {
+  width: 100%;
+  box-sizing: border-box;
+}

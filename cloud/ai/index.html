@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>ChatCLAI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+  	<link rel="apple-touch-icon" href="favicon.png">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  	<div class="chat-container">
+		<div class="chat-area">
+			<div class="title-bar">
+			    <h1>ChatCLAI</h1>
+				<button id="logout">登出</button>
+			</div>
+			<div class="intro-box-container">
+				<div class="intro-box">
+				   <p>ChatCLAI 使用 QEMU 在 ARM64 服務器上運行</p>
+				</div>
+			</div>
+			<div class="intro-box-container">
+				<div class="intro-box">
+				   <p>連接互聯網的語言模型，它可以幫助您在網絡上進行搜索</p>
+				</div>
+			</div>
+			<div class="intro-box-container">
+				<div class="intro-box">
+				   <p>正在使用 CondersAuth 登入</p>
+				</div>
+			</div>
+			<div class="intro-box-container">
+				<div class="intro-box">
+				   <p>您的聊天記錄保存在您的瀏覽器 cookies 中</p>
+				</div>
+			</div>
+		</div>
+		<div class="chat-input">
+			<button id="clear-button">清除</button>
+			<input type="text" id="chat-input-field" placeholder="輸入您的信息..." autocomplete="off">
+			<button id="sendButton">發送</button>
+		</div>
+		<h3 id="response-text"></h3>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
